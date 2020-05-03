@@ -46,8 +46,8 @@ go test -v -run=${testfuncName} ./car
 
 ## Bechmark Test
 
-  go test -v --bench=. .
+  go test -v -bench=. .
 
 ## run benchmark only and show memory
 
-  go test -v --bench=. -run=none --benchmem .
+  go test -v -bench=. -run=none -benchmem .
