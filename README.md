@@ -43,3 +43,7 @@ github.com/stretchr/testify
 go test -v -run=${testfuncName} ./car
 
 ## 平行測試
+
+## Bechmark Test
+
+  go test -v --bench=. .
